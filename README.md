@@ -6,6 +6,7 @@ I am willing to make a self driving car project. Currently in 15th march 2025 I'
 2. Time Series Forecasting
 3. Generative Models
 4. Transformer-Based Model Architectures
+5. Deep Learning for Text(don't think i need it for this project, but why shouldn't I be familiar with it :- >)
 
 To move forward with this complex project, I still need to cover the following topics:
 
