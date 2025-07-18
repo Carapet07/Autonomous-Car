@@ -23,4 +23,11 @@ build/
 dist/
 
 # Logs
-*.log 
+*.log
+
+# Model files (can be downloaded automatically)
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb 
