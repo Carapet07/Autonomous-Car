@@ -16,3 +16,15 @@ To move forward with this complex project, I still need to cover the following t
 8. Deep Learning for Object Detection and Tracking
 
 Once I feel I am fully prepared, I will return and start working on the project(hopefully within the next 3-4 months) 
+
+
+### Environment Activaion:
+on MacOS: source env/bin/activate
+On Windows .\env\Scripts\Activate
+
+  ## Setup
+   ```bash
+   pip install -r requirements.txt
+   # Models will be downloaded automatically on first use
+   ```
+

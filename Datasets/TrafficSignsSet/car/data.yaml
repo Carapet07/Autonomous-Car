@@ -8,6 +8,5 @@ names: ['Green Light', 'Red Light', 'Speed Limit 10', 'Speed Limit 100', 'Speed 
 roboflow:
   workspace: selfdriving-car-qtywx
   project: self-driving-cars-lfjou
-  version: 6
   license: CC BY 4.0
   url: https://universe.roboflow.com/selfdriving-car-qtywx/self-driving-cars-lfjou/dataset/6

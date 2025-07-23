@@ -1,0 +1,7 @@
+{
+    "code-runner.executorMap": {
+        "python": "cd $dir && source ../../env/bin/activate && python3 $fileName"
+    },
+    "code-runner.runInTerminal": true,
+    "python.defaultInterpreterPath": "./env/bin/python3"
+} 
