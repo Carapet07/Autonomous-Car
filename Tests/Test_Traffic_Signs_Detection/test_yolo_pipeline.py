@@ -6,9 +6,9 @@ def test_yolo_sanity():
     YOLO + data + config all connect correctly.
     """
     
-    model = YOLO('../../Traffic_Signs_Detection/yolov8n.pt')
+    model = YOLO('Traffic_Signs_Detection/yolov8n.pt')
     
-    results = model.train(data="../../Datasets/TrafficSignsSet/car/data.yaml",
+    results = model.train(data="Datasets/TrafficSignsSet/car/data.yaml",
                          epochs=1,
                          imgsz=416,
                          batch=1, 
@@ -16,7 +16,7 @@ def test_yolo_sanity():
     
     assert results is not None
     
-    preds = model.predict(source='../../Datasets/TrafficSignsSet/car/valid/images/00000_00000_00002_png.rf.109f031ac8e60eba952da43b054389c0.jpg')
+    preds = model.predict(source='Datasets/TrafficSignsSet/car/valid/images/00000_00000_00002_png.rf.109f031ac8e60eba952da43b054389c0.jpg')
     assert preds is not None
 
 if __name__ == "__main__":
