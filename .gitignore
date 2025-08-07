@@ -1,0 +1,39 @@
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Compiled extensions
+*.so
+*.dylib
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS metadata files
+.DS_Store
+
+# Packaging
+*.egg-info/
+build/
+dist/
+
+# Logs
+*.log
+
+# Model files (can be downloaded automatically)
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+
+# Large dataset files
+Datasets/ObjectDetectionSet/bdd100k/bdd100k_labels_release/
+*.json
+*.zip
+*.tar.gz 
