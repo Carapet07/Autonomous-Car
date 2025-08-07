@@ -36,4 +36,7 @@ dist/
 Datasets/ObjectDetectionSet/bdd100k/bdd100k_labels_release/
 *.json
 *.zip
-*.tar.gz 
+*.tar.gz
+
+# All datasets (exclude from version control)
+Datasets/ 
