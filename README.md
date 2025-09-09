@@ -1,11 +1,11 @@
-# Autonomous Car Project 🚗
+# Autonomous Car Project 
 
 The project isn't ready yet!
 
-## 📁 Project Structure
+## Project Structure
 
 ```
-## 🛠 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -24,6 +24,6 @@ The project isn't ready yet!
    pip install ultralytics torch torchvision matplotlib pillow pyyaml tqdm seaborn
    ```
 
-## 📄 License
+## License
 
 This project is open source and available under the MIT License.
